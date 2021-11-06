@@ -4,29 +4,13 @@
         Como cliente da EBAC-SHOP
         Quero fazer o login (autenticação) na Plataforma
         Para visualizar meus pedidos
+        
+        Contexto: 
+        Dado que eu acesse a página do portal EBAC-SHOP
+
 
         Cenario: Login e senha válidos
-        Dado que eu acesse a página do portal EBAC-SHOP
-        Quando eu digitar corretamente e-mail e senha
-        Entao deve direcionar para a tela de chekout
-
-        Cenario: Login ou senha inválidos
-        Dado que eu acesse a página do portal EBAC-SHOP
-        Quando eu digitar email "debora.canne@gmail.com"
-        E senha "123456@ebac"
-        Entao deve exibir uma mensagem de alerta: "e-mail ou senha inválidos"
-        ******************************************************************************
-        ******************************************************************************
-
-        Funcionalidade: Login na Plataforma
-        Como cliente da EBAC-SHOP
-        Quero fazer o login (autenticação) na Plataforma
-        Para visualizar meus pedidos
-
-        Contexto:
-        Dado que eu acesse a página do portal EBAC-SHOP
-
-        Cenario: Login e senha válidos
+        
         Quando eu digitar corretamente e-mail e senha
         Entao deve direcionar para a tela de chekout
 
@@ -36,13 +20,11 @@
         Entao deve exibir uma mensagem de alerta: "e-mail ou senha inválidos"
         ******************************************************************************
         ******************************************************************************
-            Funcionalidade: Login na Plataforma
-            Como cliente da EBAC-SHOP
-            Quero fazer o login (autenticação) na Plataforma
-            Para visualizar meus pedidos
 
-            Contexto:
-            Dado que eu acesse a página do portal EBAC-SHOP
+       
+        ******************************************************************************
+        ******************************************************************************
+            
 
             Esquema do Cenario: validar multiplos usuários
 
@@ -59,13 +41,7 @@
             | "teste3@ebac.com.br" |  | "123456" |
 
 
-            Funcionalidade: Login na Plataforma
-            Como cliente da EBAC-SHOP
-            Quero fazer o login (autenticação) na Plataforma
-            Para visualizar meus pedidos
-
-            Contexto:
-            Dado que eu acesse a página do portal EBAC-SHOP
+            
 
             Esquema do Cenario: validar multiplos usuários
 
